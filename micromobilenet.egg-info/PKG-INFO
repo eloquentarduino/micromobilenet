@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: micromobilenet
+Version: 1.0.0
+Summary: Variations of MobileNetV1 for emdedded CPUs
+Home-page: https://github.com/eloquentarduino/micromobilenet
+Author: Simone Salerno
+Author-email: support@eloquentarduino.com
+License: MIT
+Keywords: ML,Edge AI
+License-File: LICENSE
