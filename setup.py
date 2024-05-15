@@ -2,20 +2,23 @@ from distutils.core import setup
 
 
 setup(
-  name='eloquent_edgeimpulse',
-  packages=['eloquent_edgeimpulse'],
-  version='1.0.1',
+  name='micromobilenet',
+  packages=['micromobilenet'],
+  version='1.0.0',
   license='MIT',
-  description='A wrapper for Edge Impulse Linux package',
+  description='Variations of MobileNetV1 for emdedded CPUs',
   author='Simone Salerno',
-  author_email='eloquentarduino@gmail.com',
-  url='https://github.com/eloquentarduino/eloquent-edge-impulse-python',
+  author_email='support@eloquentarduino.com',
+  url='https://github.com/eloquentarduino/micromobilenet',
   keywords=[
     'ML',
-    'Edge Impulse',
     'Edge AI'
   ],
   install_requires=[
     'numpy',
+    'keras',
+    'tensorflow',
+    'Jinja2',
+    'cached_property'
   ]
 )
